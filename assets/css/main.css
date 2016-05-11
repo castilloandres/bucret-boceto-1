@@ -1905,7 +1905,7 @@
 	}
 
 		header.major h2 {
-			font-size: 2.25em;
+			font-size: 2em;
 		}
 
 		header.major p {
@@ -2037,6 +2037,11 @@
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+		}
+
+		.image.clients{
+			display:inline-block;
+			margin-left: 4em;
 		}
 
 			.image.featured img {
@@ -2473,7 +2478,7 @@
 		/*background-image: url("../../images/banner.jpg");*/
 		background-position: center center;
 		background-size: cover;
-		height: 34em;
+		height: 40.5em;
 		text-align: center;
 		position: relative;
 
@@ -2517,7 +2522,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 3em 0 3em 0;
 	}
 
 		.wrapper.style1 {
@@ -2622,7 +2627,7 @@
 		/* Banner */
 
 			#banner {
-				height: 34em;
+				height: 36em;
 			}
 
 	}
@@ -3010,9 +3015,9 @@
 			}
 
 			h2 {
-				font-size: 1.25em;
+				/*font-size: 1.25em;*/
 				letter-spacing: 0;
-				line-height: 1.35em;
+				/*line-height: 1.35em;*/
 			}
 
 			h3 {
@@ -3148,6 +3153,14 @@
 	}
 
 	.video{
-		 -webkit-transform: scaleX(1.5);
-  	 -moz-transform: scaleX(1.5);
+		 -webkit-transform: scaleX(1.25);
+  	 -moz-transform: scaleX(1.25);
+ 	}
+
+ 	#logo{
+ 		position:relative;
+ 		float:left;
+ 		margin-left:2em;
+ 		margin-top: 0.5em;
+ 		color:white;
  	}
